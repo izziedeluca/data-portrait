@@ -1,83 +1,176 @@
 {
 "key" :
   { 
-    "Do you  eat breakfast?": {
+    "How much do you play?": {
       "x" : 0,
       "y" : 0,
-      "always" : "1_always.png",
-      "often" : "1_often.png",
-      "sometimes" : "1_sometimes.png",
-      "hardly ever" : "1_hardly-ever.png",
-      "never" : "1_never.png",
+      "Every day" : "q1r1.png",
+      
+     
       "is_text" : false
     },
-    "What is your first beverage of the day?": {
-      "x" : 30,
-      "y" : 60,
-      "coffee" : "02_coffee.png",
-      "tea" : "02_tea.png",
-      "water" : "02_water.png",
-      "juice" : "02_juice.png",
+    "Do you use terraforming?": {
+      "x" : 0,
+      "y" : 0,
+      "Yes" : "q2r1.png",
+      "No" : "q2r2.png",
+    
       "is_text" : false
     },
-    "On a scale of 1 to 5 how important would you say breakfast is to you?": {
-      "x" : 263,
-      "y" : 28,
-      "1" : "3-1.png",
-      "2" : "3-2.png",
-      "3" : "3-3.png",
-      "4" : "3-4.png",
-      "5" : "3-5.png",
+    "Do you time skip?": {
+      "x" : 0,
+      "y" : 0,
+      "Yes" : "q3r1",
+      "No" : "q3r2.png",
+   
       "is_text" : false
     },
-    "I can't think unless I have breakfast.": {
-      "x" : 132,
-      "y" : 72,
-      "TRUE" : "4-true.png",
-      "FALSE" : "4-false.png",
+    "Who's your favorite villager?": {
+      "x" : 0,
+      "y" : 0,
+      "Raddle" : "q6r1.png",
+      "Sprinkle" : "q6r2.png",
+     "Boots" : "q6r3.png",
+      "Rosie" : "q6r4.png",
+       "Pekoe" : "q6r5.png",
+      "Caroline" : "q6r6.png",
+      "Raymond/Marshal" : "q6r7.png",
+      "Cherry" : "q6r8.png",
+     "Admiral" : "q6r9.png",
+      "Shep" : "q6r10.png",
+       "Bill" : "q6r11.png",
+     
       "is_text" : false
     },
-    "An ideal breakfast would include:": {
-      "x" : 32,
-      "y" : 370,
+    "What's your favorite fruit on the Island?": {
+      "x" : 0,
+      "y" : 0,
+      "Cherry" : "q4cherry.png",
+      "Orange" : "q4orange.png",
+      "Peach" : "q4peach.png",
+      "Apple" : "q4apple.png",
+
       "is_text" : true
-    }
+    },
+
+     "What's your favorite thing to collect?": {
+      "x" : 0,
+      "y" : 0,
+      "Fish" : "q5fish.png",
+      "Flowers" : "q5flower.png",
+      "Fossils" : "q5fossil.png",
+      "Bugs" : "q5bugs.png",
+      "is_text" : false
   },
-"data" : [
+"data" : [[
   {
-    "Do you  eat breakfast?": "always",
-    "I can't think unless I have breakfast.": "TRUE",
-    "What is your first beverage of the day?": "water",
-    "On a scale of 1 to 5 how important would you say breakfast is to you?": 4,
-    "An ideal breakfast would include:": "egg and cheese"
-  },
-  {
-    "Do you  eat breakfast?": "never",
-    "I can't think unless I have breakfast.": "FALSE",
-    "What is your first beverage of the day?": "coffee",
-    "On a scale of 1 to 5 how important would you say breakfast is to you?": 3,
-    "An ideal breakfast would include:": "a bloody mary"
-  },
-  {
-    "Do you  eat breakfast?": "always",
-    "I can't think unless I have breakfast.": "TRUE",
-    "What is your first beverage of the day?": "water",
-    "On a scale of 1 to 5 how important would you say breakfast is to you?": 3,
-    "An ideal breakfast would include:": "Pancakes and strawberry compote"
+    "How much do you play?": "Every day",
+    "Do you use terraforming?": "Yes",
+    "Do you time skip?": "Yes",
+    "Who's your favorite villager?": "Raddle",
+    "What's your favorite fruit on the Island?": "Orange",
+    "What's your favorite thing to collect?": "Flowers"
   },
   {
-    "Do you  eat breakfast?": "always",
-    "I can't think unless I have breakfast.": "TRUE",
-    "What is your first beverage of the day?": "coffee",
-    "On a scale of 1 to 5 how important would you say breakfast is to you?": 5,
-    "An ideal breakfast would include:": "coffee, yogurt, fruit, granola"
+  "How much do you play?": "Every day",
+    "Do you use terraforming?": "Yes",
+    "Do you time skip?": "No",
+    "Who's your favorite villager?": "Sprinkle",
+    "What's your favorite fruit on the Island?": "Cherry",
+    "What's your favorite thing to collect?": "Flowers"
+    
   },
   {
-    "Do you  eat breakfast?": "hardly ever",
-    "I can't think unless I have breakfast.": "FALSE",
-    "What is your first beverage of the day?": "juice",
-    "On a scale of 1 to 5 how important would you say breakfast is to you?": 2,
-    "An ideal breakfast would include:": "Tequila and takis"
+     "How much do you play?": "Every day",
+    "Do you use terraforming?": "Yes",
+    "Do you time skip?": "No",
+    "Who's your favorite villager?": "Boots",
+    "What's your favorite fruit on the Island?": "Peach",
+    "What's your favorite thing to collect?": "Bugs"
+ 
+  },
+  {
+    "How much do you play?": "Every day",
+    "Do you use terraforming?": "No",
+    "Do you time skip?": "Yes",
+    "Who's your favorite villager?": "Rosie",
+    "What's your favorite fruit on the Island?": "Cherry",
+    "What's your favorite thing to collect?": "Fossils"
+
+ 
+  },
+  {
+    "How much do you play?": "Every day",
+    "Do you use terraforming?": "Yes",
+    "Do you time skip?": "Yes",
+    "Who's your favorite villager?": "Pekoe",
+    "What's your favorite fruit on the Island?": "Peach",
+    "What's your favorite thing to collect?": "Flowers"
+
+
+  },
+  {
+    "How much do you play?": "Every day",
+    "Do you use terraforming?": "Yes",
+    "Do you time skip?": "No",
+    "Who's your favorite villager?": "Caroline",
+    "What's your favorite fruit on the Island?": "Apple",
+    "What's your favorite thing to collect?": "Fossils"
+
+    
+  },
+  {
+    "How much do you play?": "Every day",
+    "Do you use terraforming?": "Yes",
+    "Do you time skip?": "No",
+    "Who's your favorite villager?": "Raymond/Marshal",
+    "What's your favorite fruit on the Island?": "Peach",
+    "What's your favorite thing to collect?": "Flowers"
+
+   
+  },
+  {
+    "How much do you play?": "Every day",
+    "Do you use terraforming?": "Yes",
+    "Do you time skip?": "No",
+    "Who's your favorite villager?": "Cherry",
+    "What's your favorite fruit on the Island?": "Orange",
+    "What's your favorite thing to collect?": "Fossils"
+
+
+  },
+  {
+    "How much do you play?": "Every day",
+    "Do you use terraforming?": "Yes",
+    "Do you time skip?": "Yes",
+    "Who's your favorite villager?": "Admiral",
+    "What's your favorite fruit on the Island?": "Cherry",
+    "What's your favorite thing to collect?": "Flowers"
+
+   
+  },
+  {
+    "How much do you play?": "Every day",
+    "Do you use terraforming?": "Yes",
+    "Do you time skip?": "Yes",
+    "Who's your favorite villager?": "Shep",
+    "What's your favorite fruit on the Island?": "Peach",
+    "What's your favorite thing to collect?": "Fish"
+
+   
+  },
+  {
+     "How much do you play?": "Every day",
+    "Do you use terraforming?": "No",
+    "Do you time skip?": "No",
+    "Who's your favorite villager?": "Bill",
+    "What's your favorite fruit on the Island?": "Cherry",
+    "What's your favorite thing to collect?": "Bugs",
+
+
   }
 ]
+  {
+
+
 }
